@@ -347,3 +347,250 @@ body {
   gap: 2.4rem;
   padding-left: 1.2rem;
 }
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature-icon {
+  transition: all 0.4s;
+  align-self: center;
+  /* height: 14.6rem;
+  width: 14.6rem; */
+  scale: 0.9;
+  margin-bottom: 3.2rem;
+}
+.feature-icon4 {
+    transition: all 0.4s;
+    align-self: center;
+    /* height: 14.6rem;
+    width: 14.6rem; */
+    scale: 0.74;
+    margin-bottom: 3.2rem;
+  }
+.feature-icon:hover {
+  transform: scale(1.15);
+}
+.feature-icon4:hover {
+    transform: scale(1.15);
+  }
+
+.feature-title {
+  font-size: 2.2rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+.con1 {
+  padding: 9.6rem 0;
+}
+
+.section-cta {
+  /* top / right / bottom / left */
+  /* padding: 9.6rem 0 12.8rem 0; */
+
+  /* top / horizontal / left */
+  padding: 4.8rem 0 12.8rem;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* background-color: #e67e22; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+  overflow: hidden;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  color: #45260a;
+}
+
+.cta .heading-secondary {
+  /* color: #45260a; */
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url("../images/woman-repairer-with-painting-roller-isolated.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #fdf2e9;
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+}
+#welcome-plugin {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #222;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(75, 75, 75, 0.993);
+  z-index: 9999;
+}
+
+#welcome-content {
+  text-align: center;
+}
+.plugin {
+  height: 450px;
+  width: 600px;
+  border-radius: 8px;
+}
+#close-btn {
+  position: absolute;
+  top: 0px;
+  right: 11px;
+  font-size: 35px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+#close-btn:hover
+{
+    color: #e67e22;
+}
+
+#image-container {
+  position: relative;
+  display: inline-block;
+}
+
+#sale-message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #e67e22;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 8px;
+
+}
+.pl_h
+{
+    font-size: 35px;
+    color: #fff;
+    margin-top: 20px;
+}
+.pl_p
+{
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 20px;
+}
